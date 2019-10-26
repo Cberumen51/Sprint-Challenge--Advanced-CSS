@@ -1,17 +1,20 @@
 // Mixins Here
+@phone: ~'(max-width: 500px)';
+
 .box(@p,@m){
     padding: @p;
     margin: @m;
 }
+
 .btns(@bg-color,@color){
     background-color: @bg-color;
     color: @color;
     width: 25%;
-      padding: 10px 10px;
-      font-size: 18px;
-      border: 1px solid black;
-      border-radius: 5px;
-      align-items: center;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 5px;
+    align-items: center;
     cursor: pointer;
     &:hover{
       color:@bg-color;
