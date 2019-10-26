@@ -33,20 +33,25 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+
 A fully responsive site will adjust to the size of the screen or window and adjust acordingly. It doesn't change instantly. An adaptive website has certain breaks to where it will change for the view. For example if the screen is less than 500px it will show a certain format than if it was bigger.
 
 2. Describe what it means to be mobile first vs desktop first.
+
 If something is mobile first then it's assumed that the website is meant to be used on the phone. Then you start adjusting it for a tablet view and then a desktop view. A desktop first is the opposite. The website is meant to be visited on the desktop then they start adjusting it to be viewed on a tablet then a phone. 
 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
 the 62.5% gives the font a soild number of 10 to use. when we want to resize it we use rem units to multiply the number by what ever we want if we want it bigger or smaller.
 
 4. How would you describe preprocessing to someone new to CSS?
+
 It's like a translater from you to the computer. You put some information in, it reads it, understands it, then converts it into something the computer will recognize and be able to use.
 
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
 My favorite concept is the ability to create mixings to have some editing on hand. you can make buttons or boxes really easily just by creating the mixin and then adjusting it acordingly. The imports kind of confuse me i don't get how they combine with one another. 
 
 
