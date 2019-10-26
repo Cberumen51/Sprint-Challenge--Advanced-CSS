@@ -1,5 +1,5 @@
 // Navigation code here
-
+@phone: ~'(max-width: 500px)';
 .title{
     h2{
         font-size: 36px;
@@ -19,4 +19,11 @@
             color: black
         }// end a
     }// end nav
+
+@media @phone{
+    nav{
+        width:100%;
+        justify-content: space-evenly;
+    }
+}
 }// end title
