@@ -1,5 +1,4 @@
 // Home Content
-
 .home {
 
   .intro {
@@ -58,6 +57,7 @@
       }
 
       .btn {
+        .btns(#22283A, white)
       }
     }
 
@@ -71,5 +71,49 @@
         border-radius: 10px;
       }
     }
+  }
+ 
+ 
+  @media @phone{
+    .header{
+      width: 100%;
+    }
+    .space-images{
+      .blast{
+        width: 100%;
+      }
+      .sky{
+        display: none;
+      }
+      .launch{
+        display: none;
+      }
+    }
+    .walk{
+      flex-direction: column-reverse;
+      align-items: center;
+      width: 100%;
+      padding:2% 3%;
+      div{
+        width: 100%;
+      }
+      .walk-text{
+        width: 100%;
+      
+      .btn{
+        display: flex;
+        justify-content: center;
+        padding:20px;
+        width: 100%;
+        text-decoration: none;
+      }
+    }
+  
+  .walk-img{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
   }
 }// home
